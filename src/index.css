@@ -1,0 +1,66 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@700&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+body{
+   background-color: white;
+   color: black;
+
+   font-family: 'Poppins', sans-serif;
+   line-height: 1;
+   transition: 0.3ms ease-in-out ; 
+
+}
+.image-container {
+   width: 90vw;
+   max-width: 1220px;
+   margin: 3rem auto;
+   display: grid;
+   gap: 2rem;
+ }
+ .form-input{
+ 
+     padding: 5px;
+     width: 200px;
+     font-family: 'Courier New', Courier, monospace;
+
+
+ }
+ .btn{
+     padding: 5px;
+     background-color: blue;
+     margin: 5px;
+     border-radius: 5px;
+     color: white;
+     border: 1px solid black;
+ }
+ .image-container .img {
+   height: 10rem;
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    
+   box-shadow:  0 10px 15px -3px rgba(0, 0, 0, 0.5);
+ }
+ @media (min-width: 768px) {
+   .image-container {
+     grid-template-columns: 1fr 1fr;
+   }
+ }
+ @media (min-width: 992px) {
+   .image-container {
+     grid-template-columns: 1fr 1fr 1fr;
+   }
+ }
+.dark-theme{
+     background-color: rgb(36, 35, 35);
+     color: white;
+}
+.dark-toggle{
+   background: transparent;
+   border: transparent;
+}
+.moon{
+   color: white;
+}
+.title{
+   color: blue;
+}

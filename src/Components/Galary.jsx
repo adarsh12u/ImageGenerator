@@ -15,7 +15,7 @@ const Galary = () => {
           }
   })
 if(query.isLoading){
-  return <h1>Loading Rukho ........</h1>
+  return <h1>Loading ........</h1>
 }
 if(query.isError){
 return <h1> NOT FOUND ......... </h1>

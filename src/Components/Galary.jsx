@@ -14,7 +14,6 @@ const Galary = () => {
         return response.data
           }
   })
-  console.log(query)
 if(query.isLoading){
   return <h1>Loading Rukho ........</h1>
 }
@@ -25,7 +24,7 @@ return <h1> NOT FOUND ......... </h1>
 
 const result = query.data.results;
 if(result.length < 1){
-  return <h1> no found</h1>
+  return <h1> Search .. </h1>
 }
   return (
     <div className='image-container'>
